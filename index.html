@@ -2,7 +2,8 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>تطبيق Emar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق Emar – الصف الثامن سوريا</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,8 +18,17 @@
             margin: auto;
             padding: 30px;
             border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
-        h1 { color: #1e3a8a; }
+        h1 {
+            color: #1e3a8a;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #4b5563;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
         .btn {
             background: #4caf50;
             color: white;
@@ -27,34 +37,53 @@
             border-radius: 50px;
             text-decoration: none;
             margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
         }
-        ul {
+        .features {
             text-align: right;
             display: inline-block;
+            margin: 20px 0;
+            padding: 0;
         }
-        li {
-            margin: 8px 0;
+        .features li {
+            margin: 12px 0;
+            font-size: 16px;
+            list-style: none;
+        }
+        .features li::before {
+            content: "✓ ";
+            color: #4caf50;
+            font-weight: bold;
+            font-size: 18px;
         }
         .note {
             background: #fff3cd;
-            padding: 10px;
+            padding: 12px;
             border-radius: 10px;
-            font-size: 12px;
+            font-size: 13px;
             color: #856404;
+            margin: 15px 0;
+        }
+        .footer {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="box">
         <h1>📚 تطبيق Emar</h1>
-        <p>تعلم اللغة الإنجليزية مع اختبارات تفاعلية</p>
+        <div class="subtitle">للصف الثامن – سوريا</div>
+        <p>تعلم الإنجليزية بطريقة ممتعة وسهلة</p>
         
-        <ul>
-            <li>✅ أكثر من 20 درساً</li>
-            <li>✅ اختبارات القراءة والقواعد والمفردات</li>
-            <li>✅ نتائج فورية مع تصحيح وشرح</li>
-            <li>✅ إمكانية اختيار دروس متعددة</li>
-            <li>✅ مجاني بالكامل</li>
+        <ul class="features">
+            <li>20 درساً تفاعلياً</li>
+            <li>اختبارات في القراءة والقواعد</li>
+            <li>تمارين المفردات اليومية</li>
+            <li>نتائج فورية مع شرح</li>
+            <li>مناسب للطلاب والمعلمين</li>
         </ul>
         
         <a href="https://www.mediafire.com/file/91n755uk837usrv/%25D8%25AA%25D8%25B7%25D8%25A8%25D9%258A%25D9%2582_Emar_8.apk/file" class="btn">
@@ -65,7 +94,9 @@
             💡 للتثبيت: بعد التحميل، افتح الملف واسمح بتثبيت التطبيقات من مصادر خارجية
         </div>
         
-        <p style="font-size:12px;">للاستفسار: sam1982649@gmail.com</p>
+        <div class="footer">
+            مجاني بالكامل | للاستفسار: sam1982649@gmail.com
+        </div>
     </div>
 </body>
 </html>
